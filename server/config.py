@@ -22,3 +22,19 @@ db.init_app(app)
 bcrypt = Bcrypt(app)
 
 api = Api(app)
+
+
+
+# from flask import Flask
+# from flask_sqlalchemy import SQLAlchemy
+# from flask_bcrypt import Bcrypt
+# from flask_restful import Api
+
+# app = Flask(__name__)
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'  # You can also use an environment variable here.
+# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+# app.config['SECRET_KEY'] = 'your-secret-key'  # Replace with a strong secret key in production.
+
+# db = SQLAlchemy(app)
+# bcrypt = Bcrypt(app)
+# api = Api(app)
